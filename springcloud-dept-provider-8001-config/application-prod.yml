@@ -30,5 +30,5 @@ eureka:
 info:
   app.name: springcloud
   company.name: www.springcloud.com
-  build.artifactId: @project.artifactId@
-  build.version: @project.version@
+  build.artifactId: springcloud-dept-provider-8001
+  build.version: 0.0.1-SNAPSHOT
