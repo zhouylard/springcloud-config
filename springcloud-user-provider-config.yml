@@ -1,22 +1,23 @@
-server:
-  port: 8101
-
-spring:
-  profiles: 
-    active:
-      - dev
---- 
 spring:
   profiles: dev #开发环境
   application:
     name: springcloud-user-provider-dev
+    
+server: 
+  port: 8101
 --- 
 spring:
   profiles: test #测试环境
   application:
     name: springcloud-user-provider-test
+
+server: 
+  port: 8201
 --- 
 spring:
   profiles: prod #生产环境
   application:
     name: springcloud-user-provider-prod
+
+server: 
+  port: 8301
